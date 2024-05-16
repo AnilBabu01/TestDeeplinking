@@ -13,22 +13,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.centsser}>
-        <a
-          href="myapp://gizmos/about"
-          className={styles.linkstyle}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>Open app home screen</h2>
-        </a>
-        <a
-          href="myapp://gizmos/about"
-          className={styles.linkstyle}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>Open app about screen</h2>
-        </a>
+        <div>
+          <a
+            href="myapp://gizmos/about"
+            className={styles.linkstyle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Open app home screen</h2>
+          </a>
+          <a
+            href="myapp://gizmos/about"
+            className={styles.linkstyle}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Open app about screen</h2>
+          </a>
+        </div>
       </div>
     </>
   );

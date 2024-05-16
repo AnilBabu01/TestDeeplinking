@@ -80,13 +80,13 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="myapp://gizmos/about"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+            'myapp://gizmos/about <span>-&gt;</span>
             </h2>
             <p>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
@@ -94,13 +94,13 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="myapp://gizmos/about"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+            'myapp://gizmos/about <span>-&gt;</span>
             </h2>
             <p>
               Instantly deploy your Next.js site to a shareable URL

@@ -13,7 +13,8 @@
   align-items: center;
 }
 .linkstyle{
-  margin: 20%;
+  margin-bottom: 20%;
+  width: 100%;
 }
 .description {
   display: inherit;

@@ -5,7 +5,7 @@
       "package_name": "com.learningproject",
       "sha256_cert_fingerprints":
       ["A0:89:FB:3F:2B:55:5A:CD:DE:DD:02:FC:D7:C3:1C:8D:57:82:40:98:09:7A:BF:BE:25:32:42:71:90:44:A4:D0"],
-      "host": "test-deeplinking.vercel.app",
+      "host": "https://test-deeplinking-o5k8.vercel.app",
       "path": "/about"
     }
   }]

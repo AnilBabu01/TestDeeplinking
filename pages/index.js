@@ -3,8 +3,6 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 
-
-
 export default function Home() {
   return (
     <>
@@ -17,11 +15,19 @@ export default function Home() {
       <div className={styles.centsser}>
         <a
           href="myapp://gizmos/about"
-          className={styles.card}
+          className={styles.linkstyle}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2>Open App</h2>
+          <h2>Open app home screen</h2>
+        </a>
+        <a
+          href="myapp://gizmos/about"
+          className={styles.linkstyle}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>Open app about screen</h2>
         </a>
       </div>
     </>

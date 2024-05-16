@@ -7,6 +7,11 @@
   min-height: 100vh;
 }
 
+.centsser{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -227,3 +232,5 @@
     transform: rotate(0deg);
   }
 }
+
+
